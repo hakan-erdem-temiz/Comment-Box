@@ -17,6 +17,7 @@ class CommentList extends Component {
   }
 }
 
+//state.comments:   reducers => index.js => comments
 function mapStateToProps(state) {
   return {
     comments: state.comments
